@@ -1,0 +1,15 @@
+.nav-div{
+    @apply bg-gradient-to-r from-teal-900 to-teal-950 border-gray-200 
+}
+
+.main-div{
+    @apply max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 
+}
+
+.title-tag{
+    @apply flex items-center space-x-3 rtl:space-x-reverse font-mono text-white 
+}
+
+.title-span{
+    @apply self-center text-2xl font-semibold whitespace-nowrap
+}

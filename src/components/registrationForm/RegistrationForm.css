@@ -1,0 +1,108 @@
+.main-div{
+    @apply flex items-center justify-center 
+}
+
+.form-div{
+    @apply border-4 border-indigo-500/50 px-10 py-5 rounded-3xl mb-6 mt-6 hover:border-indigo-500 duration-200 bg-gradient-to-r from-teal-900 to-teal-950
+}
+
+.heading{
+    @apply text-white font-serif text-5xl mt-3 mb-5 text-center 
+}
+
+.text-div{
+    @apply grid gap-6 mb-6 md:grid-cols-2
+}
+
+.input-text-label{
+    @apply block mb-2 text-base font-medium text-white
+}
+
+.asteric{
+    @apply text-red-600
+}
+
+.text-field{
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 hover:bg-gray-200 duration-100
+    focus:border-blue-500 block w-full p-2.5
+}
+
+.error{
+    @apply text-red-500 text-sm font-mono font-bold mt-1
+}
+
+.pass{
+    @apply mt-6
+}
+
+.drop-down-label{
+    @apply block mb-2 text-base font-medium text-white dark:text-white
+}
+
+.drop-heading{
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg hover:bg-gray-200 duration-100
+    focus:border-blue-500 block w-full p-2.5
+}
+
+.drop{
+    @apply block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white
+}
+
+.date-div{
+    @apply relative max-w-min
+}
+
+.date-label{
+    @apply block mb-2 text-base font-medium text-white
+}
+
+.datee{
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 hover:bg-gray-200 duration-100
+    focus:border-blue-500 block w-full ps-10 p-2.5
+}
+
+.radio-div{
+    @apply flex gap-x-4
+}
+
+.radio-buttons{
+    @apply w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500
+}
+
+.radio-label{
+    @apply ms-2 text-sm font-medium text-white
+}
+
+.check-box-div{
+    @apply flex items-center mb-4 gap-x-2
+}
+
+.check-box{
+    @apply w-4 h-4
+}
+
+.check-box-label{
+    @apply ms-2 text-sm font-medium text-white  
+}
+
+.picture{
+    @apply rounded-full h-20 w-20 overflow-hidden
+}
+
+.text-area-label{
+    @apply block mb-2 text-base font-medium text-white
+}
+
+.text-area{
+    @apply block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 hover:bg-gray-200 duration-100
+}
+
+.button-div{
+    @apply flex justify-center
+}
+
+.register-button{
+    @apply mt-2 border-4 px-6 py-2 text-white text-lg font-bold rounded-full w-40 h-16
+    hover:bg-teal-950 hover:border-teal-950 hover:text-gray-200 duration-200
+}
+
